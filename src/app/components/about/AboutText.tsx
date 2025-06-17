@@ -20,7 +20,7 @@ export default function AboutText() {
           multi-storey buildings across Hyderabad and other metropolitan areas.
           Our esteemed clientele includes multinational corporations and
           prominent corporate entities, attesting to the trust they place in us
-          for translating their visions into reality.
+          for translating their visions into reality. 
         </p>
         <p>
           One of our standout achievements lies in the healthcare sector, where
