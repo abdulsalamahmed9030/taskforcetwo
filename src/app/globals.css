@@ -71,3 +71,12 @@ body {
     margin-left: 130px;
   }
 }
+/* globals.css */
+@media (min-width: 768px) and (max-width: 899px) {
+  .footer-grid-responsive {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem; /* matches Tailwind's gap-8 */
+  }
+}

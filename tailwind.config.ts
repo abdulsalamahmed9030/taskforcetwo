@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       fontFamily: {
         oswald: ['var(--font-oswald)', 'sans-serif'],
-        openSans: ['var(--font-open-sans)', 'sans-serif'], // ✅ Add this
+        openSans: ['var(--font-open-sans)', 'sans-serif'],
+      },
+      screens: {
+        // 👇 Custom screen between 900px and 768px
+        'mid': { 'min': '768px', 'max': '899px' },
       },
     },
   },
